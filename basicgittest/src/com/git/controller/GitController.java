@@ -1,6 +1,7 @@
 package com.git.controller;
 
 import java.util.Date;
+import java.util.GregorianCalendar;
 
 public class GitController {
 	
@@ -17,6 +18,6 @@ public class GitController {
 	}
 	
 	public Date bDay(int year, int month, int date) {
-		return new Date(new GregorianCalender(year,month,date).getTimeInMillis());
+		return new Date(new GregorianCalendar(year,month,date).getTimeInMillis());
 	}
 }
